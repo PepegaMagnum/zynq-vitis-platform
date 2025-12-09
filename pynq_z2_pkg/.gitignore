@@ -1,0 +1,8 @@
+pynq_z2/pynq_z2.cache/
+pynq_z2/pynq_z2.gen/
+pynq_z2/pynq_z2.hw/
+pynq_z2/pynq_z2.runs/
+pynq_z2/*.xsa
+*.jou
+*.log
+NA/

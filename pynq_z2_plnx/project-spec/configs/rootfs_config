@@ -899,10 +899,10 @@ CONFIG_pciutils=y
 #
 # gmp 
 #
-# CONFIG_gmp is not set
+CONFIG_gmp=y
 # CONFIG_gmp-dbg is not set
-# CONFIG_gmp-dev is not set
-# CONFIG_libgmpxx is not set
+CONFIG_gmp-dev=y
+CONFIG_libgmpxx=y
 
 #
 # gnu-config 
@@ -2032,7 +2032,7 @@ CONFIG_run-postinsts=y
 #
 # xrt
 #
-CONFIG_xrt=y
+# CONFIG_xrt is not set
 # CONFIG_xrt-dev is not set
 # CONFIG_xrt-dbg is not set
 
@@ -3845,7 +3845,7 @@ CONFIG_u-boot-tools=y
 #
 # packagegroup-petalinux-self-hosted 
 #
-# CONFIG_packagegroup-petalinux-self-hosted is not set
+CONFIG_packagegroup-petalinux-self-hosted=y
 # CONFIG_packagegroup-petalinux-self-hosted-dbg is not set
 # CONFIG_packagegroup-petalinux-self-hosted-dev is not set
 
@@ -3892,6 +3892,7 @@ CONFIG_Init-manager-sysvinit=y
 #
 # user packages 
 #
+CONFIG_cmake=y
 # CONFIG_gpio-demo is not set
 # CONFIG_peekpoke is not set
 

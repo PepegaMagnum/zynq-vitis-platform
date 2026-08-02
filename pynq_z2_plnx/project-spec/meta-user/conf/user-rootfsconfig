@@ -4,3 +4,5 @@
 CONFIG_gpio-demo
 CONFIG_peekpoke
 CONFIG_xrt
+CONFIG_cmake
+CONFIG_packagegroup-petalinux-self-hosted
